@@ -278,6 +278,10 @@ section {
   flex-direction: column;
 }
 
+.text-container{
+  text-align: justify;
+}
+
 .about-containers,
 .about-details-container {
   display: flex;
