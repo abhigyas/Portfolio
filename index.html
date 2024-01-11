@@ -12,9 +12,9 @@
         <div class="logo">Abhigya Sinha</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="about-link">About</a></li>
+                <li><a class="experience-link">Experience</a></li>
+                <li><a class="contact-link">Contact</a></li>
             </ul>
         </div>
     </nav>
@@ -27,9 +27,9 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a class="about-link" onclick="toggleMenu()">About</a></li>
+                <li><a class="experience-link" onclick="toggleMenu()">Skills</a></li>
+                <li><a class="contact-link" onclick="toggleMenu()">Contact</a></li>
             </div>
         </div>
     </nav>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </section>
-    <section id="about">
+    <section id="about" class = "about-page">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
@@ -94,7 +94,7 @@
         onclick="location.href='./#experience'"
       />
     </section>
-    <section id="experience">
+    <section id="experience" class = "experience-page">
       <p class="section__text__p1">Explore My</p>
       <h1 class="title">Skills</h1>
       <div class="experience-details-container">
@@ -250,7 +250,7 @@
         onclick="location.href='./#contact'"
       />
       </section>
-      <section id="contact">
+      <section id="contact" class = "contact-page">
         <p class="section__text__p1">Get in Touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
@@ -283,6 +283,7 @@
           </div>
         </nav>
       </footer>
-    <script src="script.js"></script>
+      <script src="script.js"></script>
+      <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>  
 </body>
 </html>
